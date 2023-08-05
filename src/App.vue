@@ -1,19 +1,13 @@
 <template>
-  <h1>{{ msg }}</h1>
-  <HelloComponent />
+  <RouterLink to="/">
+    Home..
+  </RouterLink>
+  <RouterView />
 </template>
 
 <script>
-import HelloComponent from '~/components/HelloComponent'
 
 export default {
-  components: {
-    HelloComponent
-  },
-  data() {
-    return {
-      msg: 'Hello Vue!!'
-    }
-  }
+  
 }
 </script>
